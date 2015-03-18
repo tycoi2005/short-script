@@ -13,3 +13,4 @@ apply(itemgotlost,1,FUN = function(row){
 })
 
 item1003
+write.table(item1003,file="item1003.csv",sep=",",row.names=FALSE )
