@@ -9,3 +9,7 @@
     }
   }
 }
+
+// config:
+// script.groovy.sandbox.enabled: true
+// script.groovy.sandbox.method_blacklist: "getClass,class,forName,wait,notify,notifyAll,invokeMethod,finalize" 
